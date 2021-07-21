@@ -1,0 +1,16 @@
+{
+    "defaultCommandTimeout": 15000,
+    "pageLoadTimeout": 15000,
+    "requestTimeout": 15000,
+    "fixtureFolder": "cypress/fixtures",
+    "integrationFolder": "cypress/integration",
+    "screenshotsFolder": "cypress/screenshots",
+    "videoFolder": "cypress/videos",
+    "supportFile": "cypress/support/index.js",
+    "pluginFile": "cypress/plugins/index.js",
+    "reporter": "cypress-multi-reporters",
+    "baseUrl": "https://juliemr.github.io/protractor-demo/",
+    "ignoreTestFiles": "*.js",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
+}

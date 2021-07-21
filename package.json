@@ -1,0 +1,44 @@
+{
+  "name": "cypress_sample",
+  "version": "1.0.0",
+  "description": "Simple use of Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypressOpen": "cypress open",
+    "cypressChrome": "cypress run --browser chrome",
+    "cypressChromeHeadless": "cypress run --headless --browser chrome",
+    "cypressFirefox": "cypress run --browser firefox",
+    "cucumberReport": "node cypress/reports/cucumber-report/cucumber-html-report.js",
+    "cucumberReportMulti": "node cypress/reports/cucumber-report/cucumber-html-multiple-report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanDunross/CypressSampleTests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanDunross/CypressSampleTests/issues"
+  },
+  "homepage": "https://github.com/IanDunross/CypressSampleTests#readme",
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "^8.0.0",
+    "cypress-commands": "^1.1.0",
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.0.2",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
