@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "cypressVerify":"cypress verify",
     "cypressOpen": "cypress open",
     "cypressChrome": "cypress run --browser chrome",
-    "cypressChromeHeadless": "cypress run --headless --browser chrome",
+    "cypressChromeHeaded": "cypress run --headed --browser chrome",
     "cypressFirefox": "cypress run --browser firefox",
+    "cypressFirefoxHeaded": "cypress run --headed --browser firefox",
     "cucumberReport": "node cypress/reports/cucumber-report/cucumber-html-report.js",
     "cucumberReportMulti": "node cypress/reports/cucumber-report/cucumber-html-multiple-report.js"
   },
