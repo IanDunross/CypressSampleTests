@@ -26,6 +26,7 @@ Simple use of Cypress
 ##### `npm run cypressChrome` - will run tests with Chrome in the headless mode
 ##### `npm run cypressFirefox` - same as above, but in the Firefox
 
+##### cucumber test file is in the folder `cypress\integration\navigateMainPage.feature`
 ### Step 4
 #### After run we can generate report with scripts:
 

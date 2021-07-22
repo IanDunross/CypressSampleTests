@@ -1,7 +1,7 @@
 {
-    "defaultCommandTimeout": 15000,
-    "pageLoadTimeout": 15000,
-    "requestTimeout": 15000,
+    "defaultCommandTimeout": 20000,
+    "pageLoadTimeout": 20000,
+    "requestTimeout": 20000,
     "fixtureFolder": "cypress/fixtures",
     "integrationFolder": "cypress/integration",
     "screenshotsFolder": "cypress/screenshots",
